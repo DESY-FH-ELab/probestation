@@ -10,9 +10,11 @@ Usage: `python gui.py [options] <default storage path>`
 If no default storage path is specified, the current directory is used.
 
 Options:
-  `-h`, `--help`   show this help message and exit
-  `-d`, `--debug`  debug flag, enables more verbose console output
 
+-  `-h`, `--help`   show this help message and exit
+-  `-d`, `--debug`  debug flag, enables more verbose console output
+
+Also available is a small overview of the environment readings: `python gui_environment.py`
 
 # DESY FH E-Lab Probe Station PC
 
@@ -26,7 +28,6 @@ running in the folder
 D:\Probestation
 ```
 This should start the software.
-cd 
 
 # Installation on other PCs
 
